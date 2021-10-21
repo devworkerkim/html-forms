@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>HTML Forms | The Odin Project</title>
+</head>
+<body>
+    <header>
+        <div>
+            <p>Already have an Intuit account?</p>
+            <a href="#">I forgot my User ID or Password</a>
+        </div>
+        <button id="header__signinBtn"><img src="assets/images/outline_lock_white_24dp.png">Sign In</button>
+    </header>
+    <main>
+        <h1>Intuit</h1>
+        <p>Mint Quickbooks TurboTax</p>
+        <form>
+            <h2>Create an Intuit account</h2>
+            <p>One account for everything Intuit, including Mint.<br><a href="#">Learn more</a></p>
+            <div class="form__section">
+                <label for="email">Email address</label>
+                <input type="email" id="email">
+            </div>
+            <div class="form__section">
+                <label for="phone">Phone <span>(recommended)</span></label>
+                <input type="phone" id="phone">
+                <small>Standard call, message, or data rates may apply</small>
+            </div>
+            <div class="form__section">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <button id="submitBtn"><img src="assets/images/outline_lock_white_24dp.png">Create Account</button>
+            <p>By selecting Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement</a>.</p>
+            <small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms Of Use</a>.</small>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <a href="#">Legal</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+        </div>
+        <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
+    <a href="#">Privacy Settings</a>
+</body>
+</html>
